@@ -3,7 +3,7 @@ int main()
 {
         char UserName[] = "admin@123";
         scanf("%s", &UserName);
-        printf("enter your password: \n");
+        printf("enter your password: ");
         char PassWord[] = "123456789";
         scanf("%s", &PassWord); 
         if (UserName == "admin@123") 
